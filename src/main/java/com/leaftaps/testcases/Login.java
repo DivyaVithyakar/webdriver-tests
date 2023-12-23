@@ -29,9 +29,9 @@ public class Login {
 		//dc.setVersion("117.0");
 		//dc.setPlatform(Platform.LINUX);
 		
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://4.240.86.27:4447/wd/hub"), dc);
+		//RemoteWebDriver driver = new RemoteWebDriver(new URL("http://4.240.86.27:4447/wd/hub"), dc);
 
-		//ChromeDriver driver = new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		
 		// Step 2: Load an URL
 		driver.get("http://leaftaps.com/opentaps");
